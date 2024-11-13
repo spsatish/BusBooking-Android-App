@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Thank you message -->
+    <TextView
+        android:id="@+id/thankYouMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Thank you for booking with us!"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Button to return to the main screen -->
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to Home"
+        android:layout_gravity="center"
+        android:textSize="16sp" />
+
+</LinearLayout>
